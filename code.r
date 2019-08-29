@@ -33,7 +33,6 @@ labs(title = 'Employment Status Of HR Data', x = 'Status', y = 'Count')
 ggplot(hrdata, aes(x = sales)) +
   geom_histogram(bins = 10,stat = 'count', binwidth = .5) +
   geom_bar(aes(fill = 'red')) + 
-  theme(axis.text.x = element_text(size=9, angle=45)) +
   labs(title = 'Employee Count By Department', x = 'Department', y = 'Count')
 
 
